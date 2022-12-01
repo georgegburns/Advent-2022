@@ -1,6 +1,6 @@
 
 #importing the data from advent of code
-with open('input.txt') as i:
+with open('Day1Data.txt') as i:
     task = i.read()
     task = task.splitlines()
 
