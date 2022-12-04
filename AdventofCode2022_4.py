@@ -30,6 +30,6 @@ def redundancy_check(lst):
                 overlap_count += 1
                 break
     #returning the count of the overlap for each part 1 and 2
-    return total_overlap_count, overlap_count
+    return f'The number of sets that overlap is {total_overlap_count} and the number of elements that overlap is {overlap_count}.'
         
 print(redundancy_check(task))
