@@ -31,12 +31,12 @@ console.log(calories);
 
 //part 2
 //summing each elf's calories
-let calories2 = []
+let calories2 = [];
 for (x in results) {
     temp = 0;
     for (y in results[x]) {
         temp += parseInt(results[x][y]);
-        calories2.push(temp)
+        calories2.push(temp);
     }
 }
 //sorting the array numerical from largest - smallest
@@ -44,5 +44,5 @@ calories2.sort(function(a, b) {
     return b - a;
   });
 //summing the top 3 elf backpacks
-let top3 = calories2[0] + calories2[1] + calories2[2]
-console.log(top3)
+let top3 = calories2[0] + calories2[1] + calories2[2];
+console.log(top3);
