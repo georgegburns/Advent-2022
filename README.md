@@ -6,3 +6,6 @@ A collection of code for each puzzle of Advent of Code 2022 - https://adventofco
 <br>
 <br>
 I'm still learning, so the answers aren't the cleanest or most efficient. It's all good practice!
+<br>
+<br>
+I initially completed them in Python but then replicated in JavaScript for fun.
