@@ -3,7 +3,7 @@ var fs = require('fs');
 var array = fs.readFileSync('Day1Data.txt').toString().split("\n");
 
 //part 1
-//creating an array of arrays that contain each of the elve's calories
+//creating an array of arrays that contain each of the elf's calories
 let temp = [];
 let results = [];
 array.map(x => {
@@ -30,7 +30,7 @@ for (x in results) {
 console.log(calories);
 
 //part 2
-//summing each elves' calories
+//summing each elf's calories
 let calories2 = []
 for (x in results) {
     temp = 0;
