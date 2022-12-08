@@ -65,6 +65,8 @@ for x in length:
 #the set removes duplicates and the length is the number of visible trees
 print(len(visible))
 
+#part 2
+
 #building a dictionary of tree coordinates
 viewing_dist = {}
 for y in width:
